@@ -5,7 +5,7 @@ export default () => {
   // console.log('mount:', mountMe)
     return (
         <div>
-            <h1>hello out there!!!</h1> 
+            <h1>hello out there!!!</h1>
             <hr/>
            <MarketingApp/> 
         </div>
