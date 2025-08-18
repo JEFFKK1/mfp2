@@ -9,8 +9,8 @@ const mount = (el, {  defaultHistory } ) => {
     ReactDOM.render(<App history = { history } />, el)
 }
 if (process.env.NODE_ENV === 'development') {
-   // console.log('checking dev root now...')
-    const devRoot = document.querySelector('#marketing_dev_root')
+   console.log('checking dev root now...')
+    const devRoot = document.querySelector('#auth_dev_root')
     console.log('what is devroot - el: ', devRoot)
     if(devRoot)
         mount(devRoot, { defaultHistory: createBrowserHistory() })

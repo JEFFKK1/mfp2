@@ -4,7 +4,7 @@ import { createMemoryHistory } from 'history'
 import App from './App'
 
 const  mountMe = (el, { onNavigate }) => {
-    console.log('in the mountme onNavigate = ', onNavigate)
+    console.log('in the mountme for auth onNavigate = ', onNavigate)
     const history = createMemoryHistory()
     if(onNavigate) {
         history.listen(onNavigate)
